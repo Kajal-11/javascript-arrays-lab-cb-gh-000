@@ -21,3 +21,18 @@ function destructivelyAppendKitten(name){
   kittens = appendKitten(name);
   return kittens;
 }
+
+function destructivelyPrependKitten(name){
+  kittens = prependKitten(name);
+  return kittens;
+}
+
+function destructivelyRemoveLastKitten(){
+  kittens = removeLastKitten();
+  return kittens;
+}
+
+function destructivelyRemoveFirstKitten(){
+  kittens = removeFirstKitten();
+  return kittens;
+}
